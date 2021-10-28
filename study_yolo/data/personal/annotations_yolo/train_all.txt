@@ -1,0 +1,7 @@
+./data/personal/image_train/00000.JPG 35,65,52,83,0
+./data/personal/image_train/00001.JPG 35,64,53,83,0
+./data/personal/image_train/00002.JPG 36,65,53,83,0
+./data/personal/image_train/00003.JPG 36,65,53,83,0
+./data/personal/image_train/00004.JPG 37,64,54,82,0
+./data/personal/image_train/00005.JPG 38,65,54,83,0
+./data/personal/image_train/00006.JPG 38,65,55,83,0
