@@ -20,12 +20,12 @@ import os
 
 class YOLO(object):
     _defaults = {
-        "model_path": 'model_data/yolo.h5',
-        "anchors_path": 'model_data/yolo_anchors.txt',
-        "classes_path": 'model_data/coco_classes.txt',
+        "model_path": 'model_data/yolo_tiny.h5',
+        "anchors_path": 'model_data/yolo_tiny_anchors.txt',
+        "classes_path": 'model_data/classes.txt',
         "score" : 0.3,
         "iou" : 0.45,
-        "model_image_size" : (416, 416),
+        "model_image_size" : (96, 96),
         "gpu_num" : 1,
     }
 
@@ -74,9 +74,9 @@ class YOLO(object):
         try:
             self.yolo_model = load_model(model_path, compile=False)
         except:
-            # Modify shape=(None, None, 3) -> to shape=(416, 416, 3)
-            self.yolo_model = tiny_yolo_body(Input(shape=(416, 416, 3)), num_anchors//2, num_classes) \
-                if is_tiny_version else yolo_body(Input(shape=(416, 416, 3)), num_anchors//3, num_classes)
+            # Modify shape=(None, None, 3) -> to shape=(96, 96, 3)
+            self.yolo_model = tiny_yolo_body(Input(shape=(96, 96, 3)), num_anchors//2, num_classes) \
+                if is_tiny_version else yolo_body(Input(shape=(96, 96, 3)), num_anchors//3, num_classes)
             self.yolo_model.load_weights(self.model_path) # make sure model, anchors and classes match
         else:
             assert self.yolo_model.layers[-1].output_shape[-1] == \
