@@ -75,8 +75,8 @@ class YOLO(object):
             self.yolo_model = load_model(model_path, compile=False)
         except:
             # Modify shape=(None, None, 3) -> to shape=(416, 416, 3)
-            self.yolo_model = tiny_yolo_body(Input(shape=(416, 416, 3)), num_anchors//2, num_classes) \
-                if is_tiny_version else yolo_body(Input(shape=(416, 416, 3)), num_anchors//3, num_classes)
+            self.yolo_model = tiny_yolo_body(Input(shape=(96, 96, 3)), num_anchors//2, num_classes) \
+                if is_tiny_version else yolo_body(Input(shape=(96, 96, 3)), num_anchors//3, num_classes)
             self.yolo_model.load_weights(self.model_path) # make sure model, anchors and classes match
         else:
             assert self.yolo_model.layers[-1].output_shape[-1] == \
