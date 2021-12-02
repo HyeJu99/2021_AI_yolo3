@@ -1,0 +1,9 @@
+아님 381
+
+backend.py
+L5 변경
+L95 변경
+L3113, L3117 training is -> training ==
+L483 변경 ~ -> return isinstance(x, tf_ops._TENSOR_LIKE_TYPES) or tf_ops.is_dense_tensor_like(x)
+
+backend.py L5
