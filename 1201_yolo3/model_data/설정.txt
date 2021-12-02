@@ -7,3 +7,12 @@ L3113, L3117 training is -> training ==
 L483 변경 ~ -> return isinstance(x, tf_ops._TENSOR_LIKE_TYPES) or tf_ops.is_dense_tensor_like(x)
 
 backend.py L5
+
+
+======================================================================
+train
+L45, L46, L47, L48 val_loss -> loss
+
+======================================================================
+model
+021
