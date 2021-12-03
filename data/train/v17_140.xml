@@ -1,0 +1,26 @@
+<annotation>
+	<folder>v17</folder>
+	<filename>v17_140.jpg</filename>
+	<path>C:\Users\FBK\Documents\jupyter\1122_labelImg-master\test\v17\v17_140.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>854</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beam</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>125</xmin>
+			<ymin>266</ymin>
+			<xmax>205</xmax>
+			<ymax>412</ymax>
+		</bndbox>
+	</object>
+</annotation>
