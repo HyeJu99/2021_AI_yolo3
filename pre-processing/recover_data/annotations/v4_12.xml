@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf8'?>
+<annotation>
+	<folder>v4</folder>
+	<filename>v4_12.jpg</filename>
+	<path>C:\Users\rlaco\OneDrive\바탕 화면\data\v4\v4_12.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>96</width>
+		<height>170</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gcooter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>490</xmin>
+			<ymin>330</ymin>
+			<xmax>800</xmax>
+			<ymax>890</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beam</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>90</xmin>
+			<ymin>340</ymin>
+			<xmax>470</xmax>
+			<ymax>1000</ymax>
+		</bndbox>
+	</object>
+</annotation>

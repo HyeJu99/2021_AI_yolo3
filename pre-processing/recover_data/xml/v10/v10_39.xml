@@ -1,0 +1,26 @@
+<annotation>
+	<folder>v10</folder>
+	<filename>v10_39.jpg</filename>
+	<path>C:\Users\rlaco\OneDrive\바탕 화면\data\v10\v10_39.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>80</width>
+		<height>144</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>others</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>30</xmin>
+			<ymin>86</ymin>
+			<xmax>40</xmax>
+			<ymax>106</ymax>
+		</bndbox>
+	</object>
+</annotation>

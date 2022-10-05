@@ -1,0 +1,26 @@
+<annotation>
+	<folder>v28</folder>
+	<filename>v28_110.jpg</filename>
+	<path>C:\Users\rlaco\OneDrive\바탕 화면\data\v28\v28_110.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>96</width>
+		<height>170</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gcooter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>32</xmin>
+			<ymin>64</ymin>
+			<xmax>64</xmax>
+			<ymax>110</ymax>
+		</bndbox>
+	</object>
+</annotation>

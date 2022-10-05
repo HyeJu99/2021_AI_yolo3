@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf8'?>
+<annotation>
+	<folder>v25</folder>
+	<filename>v25_15.jpg</filename>
+	<path>C:\Users\rlaco\OneDrive\바탕 화면\data\v25\v25_15.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>96</width>
+		<height>170</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gcooter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>480</xmin>
+			<ymin>120</ymin>
+			<xmax>640</xmax>
+			<ymax>330</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>gcooter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>610</xmin>
+			<ymin>230</ymin>
+			<xmax>770</xmax>
+			<ymax>450</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beam</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>580</xmin>
+			<ymin>140</ymin>
+			<xmax>790</xmax>
+			<ymax>390</ymax>
+		</bndbox>
+	</object>
+</annotation>

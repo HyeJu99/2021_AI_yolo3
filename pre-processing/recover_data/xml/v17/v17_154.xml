@@ -1,0 +1,26 @@
+<annotation>
+	<folder>v17</folder>
+	<filename>v17_154.jpg</filename>
+	<path>C:\Users\rlaco\OneDrive\바탕 화면\data\v17\v17_154.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>96</width>
+		<height>170</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>beam</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>24</xmin>
+			<ymin>51</ymin>
+			<xmax>41</xmax>
+			<ymax>81</ymax>
+		</bndbox>
+	</object>
+</annotation>

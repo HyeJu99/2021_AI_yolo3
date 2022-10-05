@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf8'?>
+<annotation>
+	<folder>v26</folder>
+	<filename>v26_51.jpg</filename>
+	<path>C:\Users\rlaco\OneDrive\바탕 화면\data\v26\v26_51.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>96</width>
+		<height>96</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>others</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>370</xmin>
+			<ymin>200</ymin>
+			<xmax>680</xmax>
+			<ymax>720</ymax>
+		</bndbox>
+	</object>
+</annotation>

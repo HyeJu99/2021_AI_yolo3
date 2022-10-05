@@ -1,0 +1,38 @@
+<annotation>
+	<folder>v2</folder>
+	<filename>v2_235.jpg</filename>
+	<path>C:\Users\rlaco\OneDrive\바탕 화면\data\v2\v2_235.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>96</width>
+		<height>96</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gcooter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>28</xmin>
+			<ymin>13</ymin>
+			<xmax>56</xmax>
+			<ymax>59</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>beam</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>22</xmin>
+			<ymin>9</ymin>
+			<xmax>53</xmax>
+			<ymax>42</ymax>
+		</bndbox>
+	</object>
+</annotation>

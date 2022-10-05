@@ -1,0 +1,26 @@
+<annotation>
+	<folder>v22</folder>
+	<filename>v22_52.jpg</filename>
+	<path>C:\Users\rlaco\OneDrive\바탕 화면\data\v22\v22_52.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>96</width>
+		<height>170</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gcooter</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>6</ymin>
+			<xmax>80</xmax>
+			<ymax>128</ymax>
+		</bndbox>
+	</object>
+</annotation>

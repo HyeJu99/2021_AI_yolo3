@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf8'?>
+<annotation>
+	<folder>v28</folder>
+	<filename>v28_0.jpg</filename>
+	<path>C:\Users\174910\Documents\Python Scripts\origin_img_xml\v28\v28_0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>480</width>
+		<height>854</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

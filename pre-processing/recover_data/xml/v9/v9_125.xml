@@ -1,0 +1,38 @@
+<annotation>
+	<folder>v9</folder>
+	<filename>v9_125.jpg</filename>
+	<path>C:\Users\rlaco\OneDrive\바탕 화면\data\v9\v9_125.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>96</width>
+		<height>96</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>deer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>41</xmin>
+			<ymin>22</ymin>
+			<xmax>63</xmax>
+			<ymax>55</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>deer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2</xmin>
+			<ymin>16</ymin>
+			<xmax>23</xmax>
+			<ymax>59</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf8'?>
+<annotation>
+	<folder>v2</folder>
+	<filename>v2_228.jpg</filename>
+	<path>C:\Users\rlaco\OneDrive\바탕 화면\data\v2\v2_228.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>96</width>
+		<height>96</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gcooter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>90</xmin>
+			<ymin>70</ymin>
+			<xmax>260</xmax>
+			<ymax>290</ymax>
+		</bndbox>
+	</object>
+</annotation>
